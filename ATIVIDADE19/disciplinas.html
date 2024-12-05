@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Disciplinas</title>
+    <h1>Cadastre sua disciplina:</h1>
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    
+    <form action="enviado.html" method="post">
+       
+        <label for="nome"> Nome da disciplina</label>
+        <input type="text" name="nome" id="Nome"
+        required="required" autofocus><br>
+
+        <br>
+        <br>
+        <label> Descrição:</label><br>
+        <textarea name="Descrição" rows="8" cols="25" maxlength="100" required placeholder="Descreva seu curso"></textarea>
+        <br>
+        <br>
+        <br>
+        <label for="dt-nasc"> Carga horária:</label>
+        <input type="time" name="cargaho" id="cargaho" required><br>
+        <br>
+        <br>
+    </form>
+
+    <input type="submit" name="enviar" value="Enviar" id="enviar">
+    <p>
+        <input type="submit" value="Enviar (Simulação)" id="enviar">
+    </p>
+
+</body>
+</html>

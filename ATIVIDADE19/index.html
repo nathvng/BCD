@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Cursos</title>
+    <h1>Cadastre seu curso:</h1>
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+    
+    <form action="enviado.html" method="post">
+       
+        <label for="nome"> Qual seu nome:</label>
+        <input type="text" name="nome" id="Nome"
+        required="required" autofocus><br>
+
+        <br>
+
+        <label> Qual seu curso?:</label> <br>
+        <input class="emlinha" type="radio" name="curso" id="engenharia">
+        <label class="emlinha" for="engenharia"> Engenharia</label>
+        <input class="emlinha" type="radio" name="curso" id="marketing">
+        <label class="emlinha" for="marketing"> Marketing</label>
+        <input class="emlinha" type="radio" name="curso" id="odontologia">
+        <label class="emlinha" for="odontologia"> Odontologia</label><br>
+        <input class="emlinha" type="radio" name="curso" id="medicina">
+        <label class="emlinha" for="medicina"> Medicina</label>
+        <input class="emlinha" type="radio" name="curso" id="psicologia">
+        <label class="emlinha" for="psicologia"> Psicologia</label>
+        <input class="emlinha" type="radio" name="curso" id="biomedicina">
+        <label class="emlinha" for="biomedicina"> Biomedicina</label>
+        <br>
+        <br>
+        <label> Descrição:</label><br>
+        <textarea name="Descrição" rows="8" cols="25" maxlength="100" required placeholder="Descreva seu curso"></textarea>
+        <br>
+        <br>
+        <br>
+        <label for="dt-nasc"> Carga horária:</label>
+        <input type="time" name="cargaho" id="cargaho" required><br>
+        <br>
+        <br>
+        <label> Nível de dificuldade:</label>
+        <select name="dificuldade"required>
+            <option value="">Selecione...</option>>
+            <option value="doce">Fácil</option>
+            <option value="salgada">Médio</option>
+            <option value="salgada">Difícil</option>
+        </select>
+
+    
+
+    </form>
+
+    <input type="submit" name="enviar" value="Enviar" id="enviar">
+    <p>
+        <input type="submit" value="Enviar (Simulação)" id="enviar">
+    </p>
+
+</body>
+</html>
